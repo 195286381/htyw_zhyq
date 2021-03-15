@@ -1,0 +1,80 @@
+body {
+	background: url(../../assets/bg.png) no-repeat 0 0/cover;
+}
+
+/* page header */
+/* 首页背景 */
+.wrapper {
+	position: relative;
+	height: 100%;
+	/* height: 810px; */
+	/*  url(../assets/bg.png) repeat 0 0 / 100%,  */
+	/* background:url(../../assets/左.png) no-repeat left 25px /632px auto, url(../../assets/右.png) no-repeat right 25px /632px auto; */
+}
+
+.header {
+	z-index: 999;
+	position: relative;
+	height: 74px;
+	background: url(../../assets/标题背景.png) no-repeat 0 0 / 100%;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 22px 57px 0;
+	height: 54px;
+}
+
+.nav .nav-right {
+	justify-content: flex-end;
+}
+
+.flex {
+	display: flex;
+}
+
+.nav ul {
+	display: flex;
+}
+
+.nav ul li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 117px;
+	height: 35px;
+	padding:0 5px;
+
+
+	/* background-color: #323; */
+}
+
+.nav ul li a {
+	line-height: 20px;
+	text-decoration: none;
+
+	font-size: 15px;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.nav-pic {
+	position: absolute;
+	top: 15px;
+	right: 6px;
+
+	width: 50px;
+	height: 50px;
+
+	background: url(../../assets/首页.png) no-repeat 0 0 / 100%;
+}
+
+.nav-left li {
+	background: url(../../assets/left-link-box.png) no-repeat 0 0/100%;
+}
+
+.nav-right li {
+	background: url(../../assets/right-link-box.png) no-repeat 0 0/100%;
+}

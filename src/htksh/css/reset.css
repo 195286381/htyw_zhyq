@@ -1,0 +1,19 @@
+/* css reset */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* basic css */
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+ul, li, ol {
+	list-style-type: none;
+}
+
+image {
+	text-decoration: none;
+}

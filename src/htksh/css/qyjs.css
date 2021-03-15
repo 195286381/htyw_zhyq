@@ -1,0 +1,268 @@
+.wrapper {
+	background:url(../../assets/左.png) no-repeat left 25px /632px auto, url(../../assets/右.png) no-repeat right 25px /632px auto;
+}
+/* content */
+.content {
+	display: flex;
+	height: 736px;
+}
+
+.content .content-left-region {
+	width: 410px;
+	padding: 18.1px 0 0;
+}
+
+.content-left-region .content-part .content-part-title {
+	margin: 0 0 0 19px;
+	padding-left: 37px;
+	width: 163px;
+	height: 36.5px;
+
+	line-height: 36.5px;
+	font-size: 18px;
+	font-family: Alibaba PuHuiTi;
+	font-weight: bold;
+	color: #FFFFFF;
+
+	background: url(../../assets/left-content-pic-hover.png) no-repeat 0 0 / 100%;
+}
+
+.content .content-center-region {
+	width: 1100px;
+	flex: auto;
+	background: url(../../assets/文字.png) no-repeat center /100%, url(../../assets/地球.png) no-repeat center / 689px 639px;
+}
+
+.content .content-right-region {
+	width: 410px;
+	padding: 18.1px 0 0;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+.content-right-region .content-part .content-part-title {
+	/* margin: 0 0 0 19px; */
+	padding-left: 37px;
+	padding-bottom: 12px;
+	width: 163px;
+	height: 36.5px;
+
+	line-height: 36.5px;
+	font-size: 18px;
+	font-family: Alibaba PuHuiTi;
+	font-weight: bold;
+	color: #FFFFFF;
+
+	background: url(../../assets/标题-右.png) no-repeat 0 0 / 100%;
+}
+
+.zichan {
+	display: flex;
+	/* height: 100px; */
+	padding: 29px 0 0 0;
+}
+
+.zichan .left{
+	box-sizing: border-box;
+	width: 194px;
+	padding-left: 27px;
+	line-height: 15px;
+}
+
+.zichan .right {
+	line-height: 15px;
+	flex: auto;
+}
+
+
+.zc-name {
+	font-size: 13px;
+	font-family: Alibaba PuHuiTi;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin-right: 10px;
+}
+
+.zc-number {
+	font-size: 18px;
+	font-family: Alibaba PuHuiTi;
+	font-weight: bold;
+	color: #F8B501;
+	margin-right: -4px;
+}
+
+.zc-dw {
+
+	font-size: 12px;
+	font-family: Alibaba PuHuiTi;
+	font-weight: bold;
+	color: #F8B501;
+}
+
+.jssb {
+	margin: 24.95px 0 32px;
+	display: flex;
+}
+
+.jssb .left {
+	position: relative;
+	box-sizing: border-box;
+	width: 194px;
+	/* margin-left: 27px; */
+	padding-left: 80px;
+}
+
+.jssb .right {
+	flex: auto;
+	position: relative;
+	box-sizing: border-box;
+
+	/* margin-left: 27px; */
+	padding-left: 57px;
+}
+
+
+.jssb .info img {
+	position: absolute;
+	top: 0;
+	left: 27px;
+	border: none;
+	margin-right: 10px;
+	width: 33.15px;
+	height: 33.15px;
+}
+
+.jssb .right img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.jssb .zc-name {
+	line-height: 12px;
+	font-size: 9px;
+	margin-bottom: 2px;
+}
+
+.jssb .zc-number {
+	font-size: 18px;
+	font-family: Alibaba PuHuiTi;
+	font-weight: bold;
+	color: #8DBCF6;
+}
+
+.jssb .zc-dw {
+	font-size: 12px;
+	font-family: Alibaba PuHuiTi;
+	font-weight: bold;
+	color: #8DBCF6;
+}
+
+.cyymap {
+	margin-left: 71px;
+	width: 289px;
+	height: 152px;
+	background: url(../../assets/组2385.png) no-repeat 0 0 / 100%;
+}
+
+.rcpz {
+	margin-top: 37px;
+	display: flex;
+	  flex-wrap: wrap;
+}
+
+.rcpz .rcpz-box {
+
+	width: 107px;
+	height: 111px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	/* background: #000; */
+	/* border: 1px solid red; */
+	margin: 0 0 14px 14px;
+
+}
+
+.rcpz-bt {
+	width: 91px;
+	height: 91px;
+
+	/* background-color: #fff; */
+	margin-bottom: 8px;
+	background: url(../../assets/占比图底.png) no-repeat center / 100% ;
+
+}
+
+
+.rcpz-description {
+	line-height: 12px;
+	font-size: 12px;
+	font-family: Alibaba PuHuiTi;
+	font-weight: 500;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.info-title {
+	padding-top: 10px;
+	padding-left: 35px;
+}
+
+.info-box {
+	display: flex;
+}
+
+.info-box .pic {
+	width: 160px;
+	/* height: 100px; */
+	margin-right: 15px;
+}
+
+.desc-box {
+	line-height: 20px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #0B7CB6;
+}
+
+.desc-box .zc-name {
+	display: inline-block;
+	width: 130px;
+}
+
+.desc-box .zc-number {
+	color: #8DBCF6;
+}
+
+.desc-box .zc-dw {
+	color: #8DBCF6;
+}
+
+.bg-gczx {
+	background: url(../../assets/工程中心icon.png) no-repeat center/ 72px 62px;
+}
+
+.bg-gzz {
+	background: url(../../assets/工作站icon.png) no-repeat center/ 60px 64px;
+}
+
+.bg-cylm {
+	background: url(../../assets/产业联盟icon.png) no-repeat center/ 60px 65px;
+}
+
+.bg-yxzl {
+	background: url(../../assets/累计专利icon.png) no-repeat center/ 73px 68px;
+}
+
+.bg-jxry {
+	background: url(../../assets/奖项iicon.png) no-repeat center/ 69px 61px;
+}
+
+
+
+/* .kycx */
+
+.info-box .info-desc {
+	padding: 10px 0;
+}
