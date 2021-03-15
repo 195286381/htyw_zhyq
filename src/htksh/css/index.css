@@ -1,3 +1,13 @@
 .content {
 	height: calc(100vh - 74px);
 }
+
+.index-title {
+	z-index: 9999;
+	width: 451px;
+	height: 41px;
+	line-height: 41px;
+	padding-left: 50px;
+	background: url(../../assets/标题.png) no-repeat 0 0 / 100%;
+}
+

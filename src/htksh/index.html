@@ -11,7 +11,9 @@
 
 	<!-- index 样式 -->
 	<link rel="stylesheet" type="text/css" href="css/index.css" />
-	<link rel="stylesheet" type="text/css" href="css/lib/leaflet.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="css/lib/leaflet.css" /> -->
+	<!-- 加载地图JSAPI脚本 -->
+<script src="https://webapi.amap.com/maps?v=1.4.15&key=272e08e4f1dcb9408f557ef1f2254075"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -22,11 +24,11 @@
 			<div class="nav">
 				<ul class="nav-left">
 					<li><a href="cwgk.html">财务概况</a></li>
-					<li><a href="afjk.html">安防监控</a></li>
+					<li><a href="afjk.html">视频会议</a></li>
 				</ul>
 				<ul class="nav-right">
-					<li class="nav-right-link"><a href="zrl.html">责任令</a></li>
-					<li class="nav-right-link"><a href="cyjcp.html">产业及产品</a></li>
+					<!-- <li class="nav-right-link"><a href="zrl.html">责任令</a></li> -->
+					<li class="nav-right-link"><a href="zhdd.html">指挥调度</a></li>
 					<li class="nav-right-link"><a href="qyjs.html">企业概况</a></li>
 				</ul>
 			</div>
@@ -35,7 +37,16 @@
 		</div>
 
 		<!-- 内容区域 -->
-		<div class="content" id="map"></div>
+		<div class="index-content-region content posr">
+			<div class="content" id="map">
+			</div>
+			<div class="content posa lt" style="z-index: 9999;">
+				<div class="index-title">
+					产品介绍
+				</div>
+			</div>
+		</div>
+
 
 	</div>
 	<script src="js/lib/echarts.js"></script>

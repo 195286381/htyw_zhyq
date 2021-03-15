@@ -6,6 +6,19 @@
 	float: right;
 }
 
+.posr {
+	position: relative;
+}
+
+.posa {
+	position: absolute;
+}
+
+.lt {
+	left: 0;
+	top: 0;
+}
+
 /* 清楚浮动 */
 .clearfix {
 	overflow: hidden;
