@@ -1,0 +1,9 @@
+.sp {
+    width: 1884px;
+    height: 672px;
+}
+
+.region-afjk {
+    height: calc(100vh - 74px);
+    background: url(../../assets/组2362.png) no-repeat fixed center / 1884px 673px;
+}

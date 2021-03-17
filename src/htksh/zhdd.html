@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/basic.css" />
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<!-- index 样式 -->
+	<link rel="stylesheet" type="text/css" href="css/zhdd.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="css/lib/leaflet.css" /> -->
+	<!-- 加载地图JSAPI脚本 -->
+<script src="https://webapi.amap.com/maps?v=1.4.15&key=272e08e4f1dcb9408f557ef1f2254075"></script>
+</head>
+<body>
+	<div class="wrapper">
+
+		<!-- 页面头部 -->
+		<div class="header clearfix">
+			<!-- 导航栏 -->
+			<div class="nav">
+				<ul class="nav-left">
+					<li><a href="cwgk.html">财务概况</a></li>
+					<li><a href="afjk.html">视频会议</a></li>
+				</ul>
+				
+				<ul class="nav-right">
+					<!-- <li class="nav-right-link"><a href="zrl.html">责任令</a></li> -->
+					<li class="nav-right-link"><a href="zhdd.html">责任令</a></li>
+					<li class="nav-right-link"><a href="qyjs.html">企业概况</a></li>
+				</ul>
+			</div>
+			<!-- 返回首页的图标 -->
+			<a class="nav-pic frt" href="index.html"></a>
+		</div>
+
+		<!-- 内容区域 -->
+		<div class="index-content-region content posr">
+
+			<div class="content" id="map">
+				<div class="content-left-region">
+					<div class="index-title title-yjlb">预警列表</div>
+					<div class="box-yjlb"></div>
+				</div>
+				<!-- <div class="map-ele"></div> -->
+				<div class="content-right-region">
+					<div class="task-box-select">
+						<div class="task-sz selected" target-box="sz-container"><br/>三责</div>
+						<div class="task-kysc" target-box="kysc-container">科研生产</div>
+						<div class="task-zxrw" target-box="zxrw-container">专项任务</div>
+						<div class="task-dbrw" target-box="dbrw-container">督办任务</div>
+					</div>
+					
+					<div id="sz-container" class="task-container">
+						<div class="index-title title-zrl">"三责"任务情况</div>
+						<div class="box-sz"></div>
+					</div>
+					<div id="kysc-container" class="task-container hidden">
+						<div class="index-title title-zrl">科研生产</div>
+						<div class="box-kysc"></div>
+					</div>
+					<div id="zxrw-container" class="task-container hidden">
+						<div class="index-title title-zrl">专项任务</div>
+						<div class="box-zxrw"></div>
+					</div>
+					<div id="dbrw-container" class="task-container hidden">
+						<div class="index-title title-zrl">督办任务</div>
+						<div class="box-dbrw"></div>
+					</div>
+				</div>
+			</div>
+	
+
+		</div>
+
+
+	</div>
+	<script src="js/lib/jquery.js"></script>
+	<script src="js/lib/echarts.js"></script>
+	<script src="js/lib/leaflet.js"></script>
+	<script src="js/index-map.js"></script>
+	<script src="js/zhdd.js"></script>
+</body>
+</html>

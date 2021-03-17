@@ -1,0 +1,4 @@
+.content {
+    height: calc(100vh - 74px);
+    background: url(../../assets/cwgk.png) no-repeat 0 0 / 100%;
+}

@@ -3,11 +3,93 @@
 }
 
 .index-title {
-	z-index: 9999;
+	box-sizing: border-box;
 	width: 451px;
 	height: 41px;
+	padding-left: 60px;
+	/* margin-right: 30px; */
+
+	font-size: 16px;
+	font-family: Alibaba PuHuiTi;
+	font-weight: bold;
+	color: #FFFFFF;
+
 	line-height: 41px;
-	padding-left: 50px;
-	background: url(../../assets/标题.png) no-repeat 0 0 / 100%;
+	
+	background: url(../../assets/更多.png) no-repeat 428.5px 16px / 11.5px 13px, url(../../assets/标题.png) no-repeat 0 0 / 451px 40.5px;
 }
 
+.title-cpjs {
+	z-index: 9999;
+	position: absolute;
+	top: 26px;
+	left: 28px;
+}
+
+
+.box-cpjs {
+	z-index: 9999;
+	position: absolute;
+	top: 95px;
+	left: 60px;
+	
+	width: 387px;
+	height: 340px;
+	background: url(../../assets/产品展示.png) no-repeat center / 100%;
+}
+
+.title-cwqk {
+	z-index: 9999;
+	position: absolute;
+	top: 426px;
+	left: 28px;
+}
+
+.box-cwqk {
+	z-index: 9999;
+	position: absolute;
+	top: 510px;
+	left: 35px;
+	
+	width: 446px;
+	height: 261px;
+	background: url(../../assets/图表.png) no-repeat center / 100%;
+}
+
+.title-zrl {
+	z-index: 9999;
+	position: absolute;
+	top: 26px;
+	right: 28px;
+
+
+}
+
+.box-zrlwcqk {
+	z-index: 9999;
+	position: absolute;
+	top: 100px;
+	right: 48px;
+
+	width: 387px;
+	height: 379px;
+	background: url(../../assets/责任令完成情况.png) no-repeat center / 100%;
+}
+
+.title-afjk {
+	z-index: 9999;
+	position: absolute;
+	top: 500px;
+	right: 28px;
+}
+
+.box-afjk {
+	z-index: 9999;
+	position: absolute;
+	top: 560px;
+	right: 38px;
+
+	width: 414px;
+	height: 233px;
+	background: url(../../assets/监控.png) no-repeat center / 100%;
+}
